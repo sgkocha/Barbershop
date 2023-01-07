@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #B7AAA2;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+    padding-left: 370px;
+    padding-right: 370px;
+}
+
+.d-f {
+    display: flex;
+
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.header {
+    padding-top: 38px;
+    padding-bottom: 37px;
+}
+
+.nav-list {
+    list-style-type: none;
+    gap: 15px;
+}
+
+.nav-list-item a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 135%;
+    text-decoration: none;
+    color: #EFE7E2;
+}
+
+.nav-list-item a:hover {
+    border-bottom: 1px dotted blue;
+}
+
+.header-info {
+    gap: 42px;
+}
+
+.header-location {
+    width: 134px;
+    background: url("./images/location.png") no-repeat right 10%;
+    padding-right: 37px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: #EFE7E2;
+}
+
+.header-phone {
+    width: 188px;
+    background: url("./images/phone.png") no-repeat right;
+    padding-right: 37px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 152%;
+    color: #FFFFFF;
+}
+
+.header-phone span {
+    font-size: 14px;
+    line-height: 135%;
+    color: #EFE7E2;
+}
+
+.barbershop-info {
+    margin-top: 35px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background: url("./images/info-bg.png") no-repeat;
+    height: 1000px;
+}
+
+.barbershop-info-caption {
+    padding-left: 60px;
+    padding-right: 148px;
+    gap: 46px;
+}
+
+.barbershop-info-title {
+    width: 779px;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+
+.barbershop-info-rated {
+    width: 221px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.barbershop-info-desc p {
+    margin-top: 29px;
+    width: 277px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #EFE7E2;
+}
+
+.book-btn {
+    display: block;
+    margin-top: 678px;
+    margin-left: 60px;
+    width: 194px;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+    background: #FF6E40;
+    border: 1px solid #FF6E40;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
