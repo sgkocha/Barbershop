@@ -84,6 +84,7 @@ body {
 .barbershop-info-wrap {
     position: relative;
 }
+
 .barbershop-info {
     margin-top: 35px;
     padding-top: 40px;
@@ -143,24 +144,28 @@ body {
     color: #FFFFFF;
     cursor: pointer;
 }
-.barbershop-info-describe{
+
+.barbershop-info-describe {
     background-color: #251D1A;
 
     padding-bottom: 25px;
-    
+
     position: absolute;
     top: 795px;
     left: 9px;
     z-index: -10;
 }
+
 .describe-box {
     margin-top: 350px;
     gap: 140px;
 }
+
 .describe-item {
     width: 300px;
     text-align: center;
 }
+
 .describe-item-title {
     margin-top: 24px;
     font-weight: 600;
@@ -168,6 +173,7 @@ body {
     line-height: 135%;
     color: #EFE7E2;
 }
+
 .describe-item-subtitle {
     margin-top: 10px;
     font-weight: 400;
@@ -175,21 +181,25 @@ body {
     line-height: 150%;
     color: #B7AAA2;
 }
+
 .barbershop-about {
     margin-top: 440px;
 }
-.barbershop-about-caption{
+
+.barbershop-about-caption {
     width: 580px;
     margin: 70px auto;
     text-align: center;
 }
+
 .barbershop-about-title {
     font-weight: 700;
     font-size: 48px;
     line-height: 125%;
     color: #FFFFFF;
 }
-.barbershop-about-subtitle{
+
+.barbershop-about-subtitle {
     margin-top: 12px;
     margin-bottom: 60px;
     font-weight: 400;
@@ -197,31 +207,37 @@ body {
     line-height: 160%;
     color: #EFE7E2;
 }
-.about-box-item img{
-   display: block;
+
+.about-box-item img {
+    display: block;
 }
-.full-image{
+
+.full-image {
     width: 580px;
     height: 337.1px;
 }
-.small-image{
+
+.small-image {
     width: 280px;
     height: 280px;
 }
+
 .barbershop-about-actions {
     width: 690px;
     margin: 60px auto;
     text-align: center;
 }
+
 .barbershop-about-actions a {
     padding-left: 51px;
     padding-right: 51px;
-    font-weight: 700; 
+    font-weight: 700;
     text-decoration: none;
     color: #FFFFFF;
 }
+
 .barbershop-about-actions a:nth-child(1) {
-    margin-right: 30px; 
+    margin-right: 30px;
     padding-top: 18.5px;
     padding-bottom: 18.5px;
     background-color: #FF6E40;
@@ -229,10 +245,194 @@ body {
     font-size: 20px;
     line-height: 152%;
 }
+
 .barbershop-about-actions a:nth-child(2) {
     padding-top: 23.5px;
     padding-bottom: 23.5px;
-    border: 1px solid #FFFFFF; 
+    border: 1px solid #FFFFFF;
     font-size: 14px;
     line-height: 150%;
+}
+
+.barbershop-testimonials {
+    margin-top: 120px;
+    padding-bottom: 34px;
+}
+
+.barbershop-testimonials-caption {
+    width: 393px;
+    margin: 0 auto;
+}
+
+.barbershop-testimonials-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.barbershop-testimonials-subtitle {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    color: #EFE7E2;
+}
+
+.barbershop-testimonials-box {
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.testimonials-name {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.barbershop-testimonials-item {
+    transition: 0.4s;
+}
+
+.barbershop-testimonials-item:hover {
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.testimonials-desc {
+    width: 277px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.testimonials-link {
+    display: block;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    text-decoration: none;
+    color: #FF6E40;
+}
+
+.testimonials-link:hover {
+    color: blue;
+}
+
+.barbershop-price {
+    margin-top: 120px;
+    padding-top: 118.62px;
+    padding-bottom: 56px;
+    background: #251D1A;
+}
+
+.barbershop-price-caption {
+    width: 580px;
+    margin: 0 auto;
+}
+
+.barbershop-price-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.barbershop-price-subtitle {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    color: #EFE7E2;
+}
+
+.barbershop-price-box {
+    margin-top: 62.38px;
+    gap: 20px;
+}
+
+.price-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 133%;
+    color: #EFE7E2;
+}
+
+.price-info {
+    width: 280px;
+    padding-left: 10px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.barbershop-price-item p {
+    margin-top: 10px;
+}
+
+.category {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 173%;
+    color: #EFE7E2;
+}
+
+.time {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    color: #B7AAA2;
+}
+
+.barbershop-price-item p:nth-child(1) .time {
+    margin-left: 64px;
+}
+
+.barbershop-price-item p:nth-child(2) .time {
+    margin-left: 64px;
+}
+
+.barbershop-price-item p:nth-child(3) .time {
+    margin-left: 26px;
+}
+
+.barbershop-price-item p:nth-child(4) .time {
+    margin-left: 96px;
+}
+
+.barbershop-price-item p:nth-child(5) .time {
+    margin-left: 100px;
+}
+
+.barbershop-price-item p:nth-child(6) .time {
+    margin-left: 136px;
+}
+
+.price {
+    margin-left: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.barbershop-price-rights {
+    width: 121px auto;
+    margin: 184px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
 }
