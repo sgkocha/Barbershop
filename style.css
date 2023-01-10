@@ -502,3 +502,31 @@ body {
 .footer a {
     color: #FFFFFF;
 }
+
+/* team.html */
+.team-wrapper {
+    background-color: #3B322D;
+}
+.team-info {
+    background: url("./images/team-info.png") no-repeat;
+    padding-top: 40px;
+    padding-bottom: 63px;
+    padding-left: 50px;
+}
+.team-info-title {
+    font-family: 'Playfair Display', sans-serif;
+    width: 699px;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 110%;
+    color: #FFFFFF;
+ }
+ .team-info-subtitle {
+    width: 228px;
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #EFE7E2;
+
+ }
