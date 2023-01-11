@@ -528,5 +528,140 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #EFE7E2;
+}
 
- }
+.team-member {
+    margin-top: 90px;
+}
+
+.team-member-caption {
+    background: #251D1A;
+}
+
+.team-member-title{
+    gap: 50px;
+}
+.team-member-name {
+    width: 250px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #EFE7E2;
+}
+.team-member-info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B7AAA2;
+}
+.team-member-desc {
+    width: 280px;
+}
+.team-member-styles {
+    width: 263px;
+}
+.team-member-box {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.team-member-box img {
+    display: block;
+}
+.works-more {
+    display: block;
+    width: 259px;
+    margin: 30px auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 12px;
+    background: #FF6E40 url("./images/refresh-cw.png") no-repeat 43px center;
+    border: 1px solid #FF6E40;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152%;
+    color: #FFFFFF;
+    cursor: pointer;   
+}
+.team-consultation {
+    margin-top: 120px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #FF6E40; 
+    text-align: center;  
+}
+.team-consultation-caption {
+    margin: 0 auto;
+}
+.team-consultation-title {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 133%;
+    color: #000000;
+}
+.team-consultation-subtitle {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #3B322D;
+}
+.team-consultation-form {
+    margin-top: 35px;
+}
+.input-info {
+    width: 323px;
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    outline: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+.input-info::placeholder {
+    color: #FFFFFF;
+}
+.team-consultation-form button {
+    width: 194px;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.team-consultation-terms{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 134.09%;
+    color: #EFE7E2;
+}
+.team-consultation-terms input {
+    width: 12px;
+    height: 12px;
+    background: #000000;
+    border: 1px solid #000000
+}
+
+.team-consultation-terms a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 134.09%;
+    color: #EFE7E2;
+}
