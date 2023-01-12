@@ -571,6 +571,11 @@ body {
 .team-member-box img {
     display: block;
 }
+
+.team-member-more {
+    display: none;
+}
+
 .works-more {
     display: block;
     width: 259px;
@@ -664,4 +669,19 @@ body {
     font-size: 13px;
     line-height: 134.09%;
     color: #EFE7E2;
+}
+.team-map-wrapper {
+    left: 0;
+}
+.team-footer {
+    margin-top: 92px;
+    padding-top: 56px;
+    padding-bottom: 57px;
+    background-color: #251D1A;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
 }
